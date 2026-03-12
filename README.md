@@ -1,8 +1,6 @@
 # spei-drought-forecasting-narx
 
-A Data-Driven Time-Series Approach to SPEI Drought Forecasting Using NARX Neural Networks
-
-
+# A Data-Driven Time-Series Approach to SPEI Drought Forecasting Using NARX Neural Networks
 
 Overview
 
@@ -14,13 +12,13 @@ Research Objective
 
 The main goals of this study are:
 
-Forecast the SPEI drought index
+- Forecast the SPEI drought index
 
-Apply NARX neural networks for nonlinear time-series prediction
+- Apply NARX neural networks for nonlinear time-series prediction
 
-Analyze relationships between meteorological variables and drought dynamics
+- Analyze relationships between meteorological variables and drought dynamics
 
-Evaluate the predictive performance of data-driven models
+- Evaluate the predictive performance of data-driven models
 
 Methodology
 
@@ -28,9 +26,9 @@ The forecasting framework is based on Nonlinear Autoregressive Neural Networks w
 
 The model structure includes:
 
-lagged values of the target variable (SPEI)
+- values of the target variable (SPEI)
 
-lagged meteorological predictors (exogenous inputs)
+- lagged meteorological predictors (exogenous inputs)
 
 General NARX formulation:
 
@@ -42,19 +40,19 @@ Data
 
 The dataset includes meteorological observations used to compute the SPEI drought index, including:
 
-precipitation
+- precipitation
 
-air temperature
+- air temperature
 
-additional climate variables (if available)
+- additional climate variables (if available)
 
 Data preprocessing includes:
 
-time-series preparation
+- time-series preparation
 
-normalization / scaling
+- normalization / scaling
 
-lagged feature generation
+- lagged feature generation
 
 Repository Structure
 
@@ -73,15 +71,15 @@ The project is implemented in R.
 
 Example packages used:
 
-tidyverse
+- tidyverse
 
-forecast
+- forecast
 
-neuralnet
+- neuralnet
 
-zoo
+- zoo
 
-SPEI
+ -SPEI
 
 Install packages in R:
 
@@ -104,13 +102,13 @@ Applications
 
 The framework can support:
 
-drought early warning systems
+- drought early warning systems
 
-climate risk assessment
+- climate risk assessment
 
-water resource management
+- water resource management
 
-environmental forecasting
+- environmental forecasting
 
 Cite This Repository
 
