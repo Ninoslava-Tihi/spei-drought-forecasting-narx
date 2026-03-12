@@ -83,22 +83,21 @@ Example packages used:
 
 Install packages in R:
 
-install.packages(c("tidyverse","forecast","neuralnet","zoo","SPEI"))
+- install.packages(c("tidyverse","forecast","neuralnet","zoo","SPEI"))
 How to Run
 
-Clone the repository
+- Clone the repo
+- git clone https://github.com/USERNAME/spei-drought-forecasting-narx.git
 
-git clone https://github.com/USERNAME/spei-drought-forecasting-narx.git
+- Open the project in RStudio
 
-Open the project in RStudio
+- Run preprocessing scripts
 
-Run preprocessing scripts
+- Train the NARX model
 
-Train the NARX model
+- Evaluate forecasting performance
 
-Evaluate forecasting performance
-
-Applications
+- Applications
 
 The framework can support:
 
@@ -120,7 +119,8 @@ If you use this repository in your research, please cite it as:
   year = {2026},
   url = {https://github.com/USERNAME/spei-drought-forecasting-narx}
 }
-Author
+
+Author: Ninoslava Tihi
 
 PhD research project focused on drought forecasting, climate data analysis, and machine learning applications in hydrology and meteorology.
 
