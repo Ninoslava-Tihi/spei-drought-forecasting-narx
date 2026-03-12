@@ -79,7 +79,7 @@ Example packages used:
 
 - zoo
 
- -SPEI
+- SPEI
 
 Install packages in R:
 
